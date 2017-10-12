@@ -1,0 +1,12 @@
+body{
+  background-color: #FFEFD5;
+}
+table{
+  position: absolute;
+  left: 36%;
+  top: 10%;
+}
+tr td{
+  padding: 30px;
+  background-color: #AFEEEE;
+}

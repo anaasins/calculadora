@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calcu.css">
+  </head>
+  <body>
+    <script type="text/javascript" src="calculo.js"></script>
+    <table border="solid 2px">
+      <tr>
+        <td colspan="4" id="pantalla">    </td>
+      </tr>
+      <tr>
+        <td>    </td>
+        <td>   </td>
+        <td id="C" class="tecla" onclick="Pulsar(this)">C</td>
+        <td id="CE" class="tecla" onclick="Pulsar(this)">CE</td>
+      </tr>
+      <tr>
+        <td id="1" class="tecla" onclick="Pulsar(this)">1</td>
+        <td id="2" class="tecla" onclick="Pulsar(this)">2</td>
+        <td id="3" class="tecla" onclick="Pulsar(this)">3</td>
+        <td id="+" class="tecla" onclick="Pulsar(this)">+</td>
+      </tr>
+      <tr>
+        <td id="4" class="tecla" onclick="Pulsar(this)">4</td>
+        <td id="5" class="tecla" onclick="Pulsar(this)">5</td>
+        <td id="6" class="tecla" onclick="Pulsar(this)">6</td>
+        <td id="*" class="tecla" onclick="Pulsar(this)">*</td>
+      </tr>
+      <tr>
+        <td id="7" class="tecla" onclick="Pulsar(this)">7</td>
+        <td id="8" class="tecla" onclick="Pulsar(this)">8</td>
+        <td id="9" class="tecla" onclick="Pulsar(this)">9</td>
+        <td rowspan="2" id="=" class="tecla" onclick="Pulsar(this)">=</td>
+      </tr>
+      <tr>
+        <td id="0" class="tecla" onclick="Pulsar(this)">0</td>
+        <td colspan="2" id="PI" class="tecla" onclick="Pulsar(this)">&Pi;</td>
+      </tr>
+    </table>
+  </body>
+</html>
